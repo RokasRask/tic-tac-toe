@@ -1,36 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kryžiukai-Nuliukai | Tic Tac Toe</title>
+    <meta name="description" content="Žaisk kryžiukus-nuliukus! Klasikinį žaidimą su moderniu stiliumi.">
     <link rel="stylesheet" href="style.css">
+    <!-- Pridedame favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎮</text></svg>">
 </head>
 <body>
 <div class="screen">
     <h1>TIC TAC TOE</h1>
     <div class="info">Ėjimas: <span id="whoGo"></span></div>
     <div class="board">
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
+        <div class="cell" data-index="0"></div>
+        <div class="cell" data-index="1"></div>
+        <div class="cell" data-index="2"></div>
  
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
+        <div class="cell" data-index="3"></div>
+        <div class="cell" data-index="4"></div>
+        <div class="cell" data-index="5"></div>
        
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
+        <div class="cell" data-index="6"></div>
+        <div class="cell" data-index="7"></div>
+        <div class="cell" data-index="8"></div>
     </div>
     <div class="result">
         <div class="win">Laimėjo: <span id="whoWin"></span></div>
         <div class="new">Naujas žaidimas</div>
     </div>
 </div>    
- 
- 
- 
  
     <script src="app.js"></script>
 </body>
